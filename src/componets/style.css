@@ -1,0 +1,84 @@
+.todoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.todoAdd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.todoAddBtn {
+    height: 40px;
+    width: fit-content;
+    font-size: 20px;
+    line-height: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.todoAddInput {
+    width: 50%;
+    height: 40px;
+    width: fit-content;
+    font-size: 20px;
+    line-height: 20px;
+    border: none;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 10px;
+    margin: 0;
+    outline-style: none;
+}
+
+.todoList {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.todoItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.todoTitle {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.todoCheckbox {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.todoClose {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
